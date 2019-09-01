@@ -1,0 +1,8 @@
+chat/TestForPointToPointMessage.class
+chat/TestVectorClock.class
+diffusionCausale/TestDiffCas2.class
+chat/TestScenarioWithInterceptorsOnClientSide.class
+chat/TestScenarioOssatureDeDepart.class
+diffusionCausale/TestDiffCas1.class
+electionTest/TestManyCandidates.class
+electionTest/TestOneCandidate.class

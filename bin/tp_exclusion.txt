@@ -1,0 +1,35 @@
+question 1-a:
+	on insere l'algorithme de Ricart et Agrawala de 1983 dans le serveur.
+
+question 1-b:
+	voir code.	
+
+question 1-c:
+	l’algorithme de Ricart et Agrawala de 1983 est écrit en orientation événement.
+
+question 1-d:
+	les messages échangés entres les serveurs sont des messages de demande de jetons.
+	ils contiennent un vecteur DemandeJetons.
+
+
+question 1-e:
+	La demande du jeton est effectuée par une diffusion. C'est une diffusion à tous les serveurs du système, pas seulement les voisins. Il n'y a pas de telle primitive mise en œuvre dans l'infrastructure de l'application de tchat. En revanche, la collection Server::reachableServers accumule les informations sur les serveurs lors de la réception des messages. 
+	Supposons (1) qu'une élection est effectuée avant la génération du jeton, donc qu'un serveur est responsable de l'enregistrement des conversations avant les échanges de messages de tchat, 
+	et (2) que quelques messages de tchat sont échangés avant la demande du jeton par un autre processus. Alors, lors de la demande du jeton par un serveur, nous pouvons supposer que l'ensemble Server::reachableServers est complet, c'est-à-dire que tous les serveurs connaissent tous les autres serveurs.
+
+
+question 1-f:
+	les variables de l'algorithme sont : 
+		int ns;
+		int dem[nbrServeur];
+		int jeton[nbrServeur];
+
+
+question 1-g:
+	apres avoir faire l'election entre les serveur le serveur qui gagne est celui qui possede en premier le jeton.
+	et ca reste arbitraire.
+
+question 1-h:
+	
+
+question 1-i:

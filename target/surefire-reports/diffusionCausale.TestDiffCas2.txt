@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: diffusionCausale.TestDiffCas2
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.22 sec <<< FAILURE! - in diffusionCausale.TestDiffCas2
+constructAndRun(diffusionCausale.TestDiffCas2)  Time elapsed: 4.163 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<1>
+	at diffusionCausale.TestDiffCas2.constructAndRun(TestDiffCas2.java:91)
+

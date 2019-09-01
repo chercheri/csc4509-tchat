@@ -1,0 +1,32 @@
+question 1 : 
+	dans le client, pour ne pas deranger ttes les communicatations
+	non ils les n interpretent pas le contenu des msg ils se chargent juste de les diffuser aux clients.
+	ne gerent pas l ordre de livraison mais il gerent la fiabilité(TCP).
+
+question b,c :
+	code
+
+question d :
+	la l5 correspond a l'affichage de msg dans le chat .
+
+question e : 
+	correspondent aux valeurs des autres processus dans le vecteur d horloge du processus courant.
+
+question f :
+	comparer les valeurs du vecteur d horloge avec celles du vecteur recu du msgBag pour assurer la causalité.
+
+question g :
+	dans le chatMsgContent on ajoute un attribut horloge de type vect d horloge,
+	ecriture: dans la methode treatConsoleInput(String) sapres l envoi du msg dans la classse Client.java
+	lecture: a la reception du msg dans la methode receiveChatMsgContetnt  
+
+question h: 
+ 	un tableau msgBag : tab de chatMsgContent.
+	vecteur d'horloge de chat.common.VectorClock. 
+	les inserer dans la classe Client.java*
+
+question i:
+	dans la methode treatConsoleInput de la classe Client.java qd l'input est differernt de quit.
+
+question j:
+	dans la methode receiveMsgContent.

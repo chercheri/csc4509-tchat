@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: chat.TestScenarioWithInterceptorsOnClientSide
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8.265 sec <<< FAILURE! - in chat.TestScenarioWithInterceptorsOnClientSide
+constructAndRun(chat.TestScenarioWithInterceptorsOnClientSide)  Time elapsed: 8.193 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<0>
+	at chat.TestScenarioWithInterceptorsOnClientSide.constructAndRun(TestScenarioWithInterceptorsOnClientSide.java:142)
+
